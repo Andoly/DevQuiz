@@ -19,5 +19,9 @@ module.exports = {
   ],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    // quotes: [2, 'single', { avoidEscape: true }],
+    'jsx-quotes': [2, 'prefer-single'],
+    // eslint-disable-next-line no-dupe-keys
+    quotes: [1, 'single'], // quote type `` "" 'F'
   },
 };
